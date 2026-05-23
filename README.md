@@ -5,7 +5,7 @@ Transfer Learning with ResNet50. The goal is to support smarter waste management
 
 ## Project Structure
 
-Smart Waste Image Classifier/
+'''Smart Waste Image Classifier/
 │
 ├── DATASET/                  # Training and testing images
 │   ├── TRAIN/
@@ -24,7 +24,7 @@ Smart Waste Image Classifier/
 ├── requirements.txt          # Python dependencies
 ├── pyproject.toml            # Project configuration
 ├── uv.lock                   # Environment lock file
-└── README.md                 # Project documentation
+└── README.md                 # Project documentation'''
 
 
 ## Features
