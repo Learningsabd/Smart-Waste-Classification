@@ -4,25 +4,27 @@ Transfer Learning with ResNet50. The goal is to support smarter waste management
 
 
 ## Project Structure
+
 Smart Waste Image Classifier/
 │
-├── DATASET/                # Training and testing images
+├── DATASET/                  # Training and testing images
 │   ├── TRAIN/
-│   │   ├── O/              # Organic waste images
-│   │   └── R/              # Recyclable waste images
+│   │   ├── O/                # Organic waste images
+│   │   └── R/                # Recyclable waste images
 │   └── TEST/
 │       ├── O/
 │       └── R/
 │
-├── balanced_waste_images/  # Balanced dataset samples
-├── main.py                 # Streamlit app for inference
-├── Smart_Waste_Image_Classifier.ipynb  # Notebook for experiments
-├── Transfer_Learning.ipynb # Notebook for model training
-├── fine-tuned-resnet50.pth # Saved model weights
-├── requirements.txt        # Python dependencies
-├── pyproject.toml          # Project configuration
-├── uv.lock                 # Environment lock file
-└── README.md               # Project documentation
+├── balanced_waste_images/    # Balanced dataset samples
+│
+├── main.py                   # Streamlit app for inference
+├── Smart_Waste_Image_Classifier.ipynb   # Notebook for experiments
+├── Transfer_Learning.ipynb   # Notebook for model training
+├── fine-tuned-resnet50.pth   # Saved model weights
+├── requirements.txt          # Python dependencies
+├── pyproject.toml            # Project configuration
+├── uv.lock                   # Environment lock file
+└── README.md                 # Project documentation
 
 
 ## Features
